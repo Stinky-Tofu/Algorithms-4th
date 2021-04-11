@@ -19,8 +19,9 @@
 #include "chapter2/select_sort.hpp"
 #include "chapter2/insert_sort.hpp"
 #include "chapter2/shell_sort.hpp"
+#include "chapter2/merge_sort.hpp"
 
 int main(int argc, const char * argv[]) {
-    shellSortTest();
+    mergeSortTest();
     return 0;
 }

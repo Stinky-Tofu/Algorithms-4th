@@ -16,8 +16,11 @@
 #include "chapter1/Queue.hpp"
 #include "chapter1/Bag.hpp"
 #include "chapter1/UnionFind.hpp"
+#include "chapter2/select_sort.hpp"
+#include "chapter2/insert_sort.hpp"
+#include "chapter2/shell_sort.hpp"
 
 int main(int argc, const char * argv[]) {
-    testUF();
+    shellSortTest();
     return 0;
 }

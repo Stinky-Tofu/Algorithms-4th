@@ -20,8 +20,9 @@
 #include "chapter2/insert_sort.hpp"
 #include "chapter2/shell_sort.hpp"
 #include "chapter2/merge_sort.hpp"
+#include "chapter2/quick_sort.hpp"
 
 int main(int argc, const char * argv[]) {
-    mergeSortTest();
+    quickSortTest();
     return 0;
 }

@@ -21,8 +21,10 @@
 #include "chapter2/shell_sort.hpp"
 #include "chapter2/merge_sort.hpp"
 #include "chapter2/quick_sort.hpp"
+#include "chapter2/min_pq.hpp"
+#include "chapter2/heap_sort.hpp"
 
 int main(int argc, const char * argv[]) {
-    quickSortTest();
+    heapSortTest();
     return 0;
 }

@@ -11,6 +11,8 @@
 		289D44ED26230C6D003461FA /* shell_sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 289D44EB26230C6D003461FA /* shell_sort.cpp */; };
 		289D44F1262336EE003461FA /* merge_sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 289D44EF262336EE003461FA /* merge_sort.cpp */; };
 		28A4934D262BC67200FE182A /* quick_sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28A4934B262BC67200FE182A /* quick_sort.cpp */; };
+		28BF388F263F977E00F9C938 /* heap_sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28BF388D263F977E00F9C938 /* heap_sort.cpp */; };
+		28BF3893263FA2DD00F9C938 /* min_pq.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28BF3891263FA2DD00F9C938 /* min_pq.cpp */; };
 		28C35AA32621C02D0011E9B2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28C35AA22621C02D0011E9B2 /* main.cpp */; };
 		28C35AB82621C1620011E9B2 /* UnionFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28C35AAB2621C1620011E9B2 /* UnionFind.cpp */; };
 		28C35AB92621C1620011E9B2 /* Queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28C35AAC2621C1620011E9B2 /* Queue.cpp */; };
@@ -43,6 +45,10 @@
 		289D44F0262336EE003461FA /* merge_sort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = merge_sort.hpp; sourceTree = "<group>"; };
 		28A4934B262BC67200FE182A /* quick_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quick_sort.cpp; sourceTree = "<group>"; };
 		28A4934C262BC67200FE182A /* quick_sort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = quick_sort.hpp; sourceTree = "<group>"; };
+		28BF388D263F977E00F9C938 /* heap_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = heap_sort.cpp; sourceTree = "<group>"; };
+		28BF388E263F977E00F9C938 /* heap_sort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = heap_sort.hpp; sourceTree = "<group>"; };
+		28BF3891263FA2DD00F9C938 /* min_pq.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = min_pq.cpp; sourceTree = "<group>"; };
+		28BF3892263FA2DD00F9C938 /* min_pq.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = min_pq.hpp; sourceTree = "<group>"; };
 		28C35A9F2621C02D0011E9B2 /* Algorithms-4th */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Algorithms-4th"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28C35AA22621C02D0011E9B2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		28C35AAB2621C1620011E9B2 /* UnionFind.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UnionFind.cpp; sourceTree = "<group>"; };
@@ -136,6 +142,10 @@
 				289D44F0262336EE003461FA /* merge_sort.hpp */,
 				28A4934B262BC67200FE182A /* quick_sort.cpp */,
 				28A4934C262BC67200FE182A /* quick_sort.hpp */,
+				28BF388D263F977E00F9C938 /* heap_sort.cpp */,
+				28BF388E263F977E00F9C938 /* heap_sort.hpp */,
+				28BF3891263FA2DD00F9C938 /* min_pq.cpp */,
+				28BF3892263FA2DD00F9C938 /* min_pq.hpp */,
 			);
 			path = chapter2;
 			sourceTree = "<group>";
@@ -199,12 +209,14 @@
 				28C35AB92621C1620011E9B2 /* Queue.cpp in Sources */,
 				28C35ABD2621C1620011E9B2 /* Node.cpp in Sources */,
 				28C35ABA2621C1620011E9B2 /* Dijkstra.cpp in Sources */,
+				28BF388F263F977E00F9C938 /* heap_sort.cpp in Sources */,
 				28C35AD22621C76E0011E9B2 /* select_sort.cpp in Sources */,
 				28C35AC32621C1770011E9B2 /* utils.cpp in Sources */,
 				28C35ABC2621C1620011E9B2 /* Stack.cpp in Sources */,
 				28C35AB82621C1620011E9B2 /* UnionFind.cpp in Sources */,
 				28A4934D262BC67200FE182A /* quick_sort.cpp in Sources */,
 				289D44ED26230C6D003461FA /* shell_sort.cpp in Sources */,
+				28BF3893263FA2DD00F9C938 /* min_pq.cpp in Sources */,
 				28C35AA32621C02D0011E9B2 /* main.cpp in Sources */,
 				289D44E926229A94003461FA /* insert_sort.cpp in Sources */,
 				289D44F1262336EE003461FA /* merge_sort.cpp in Sources */,

@@ -23,8 +23,9 @@
 #include "chapter2/quick_sort.hpp"
 #include "chapter2/min_pq.hpp"
 #include "chapter2/heap_sort.hpp"
+#include "chapter3/BST.hpp"
 
 int main(int argc, const char * argv[]) {
-    heapSortTest();
+    BSTest();
     return 0;
 }

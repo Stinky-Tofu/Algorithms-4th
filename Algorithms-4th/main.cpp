@@ -24,8 +24,9 @@
 #include "chapter2/min_pq.hpp"
 #include "chapter2/heap_sort.hpp"
 #include "chapter3/BST.hpp"
+#include "chapter3/hashTable.hpp"
 
 int main(int argc, const char * argv[]) {
-    BSTest();
+    hashTableTest();
     return 0;
 }

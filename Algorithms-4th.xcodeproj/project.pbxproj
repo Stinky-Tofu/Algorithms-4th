@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		288CFE66269C679C000E9634 /* hashTableV2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 288CFE64269C679C000E9634 /* hashTableV2.cpp */; };
 		289D44E926229A94003461FA /* insert_sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 289D44E726229A94003461FA /* insert_sort.cpp */; };
 		289D44ED26230C6D003461FA /* shell_sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 289D44EB26230C6D003461FA /* shell_sort.cpp */; };
 		289D44F1262336EE003461FA /* merge_sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 289D44EF262336EE003461FA /* merge_sort.cpp */; };
@@ -39,6 +40,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		288CFE64269C679C000E9634 /* hashTableV2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hashTableV2.cpp; sourceTree = "<group>"; };
+		288CFE65269C679C000E9634 /* hashTableV2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = hashTableV2.hpp; sourceTree = "<group>"; };
 		289D44E726229A94003461FA /* insert_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = insert_sort.cpp; sourceTree = "<group>"; };
 		289D44E826229A94003461FA /* insert_sort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = insert_sort.hpp; sourceTree = "<group>"; };
 		289D44EB26230C6D003461FA /* shell_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = shell_sort.cpp; sourceTree = "<group>"; };
@@ -106,9 +109,9 @@
 		28C35AA12621C02D0011E9B2 /* Algorithms-4th */ = {
 			isa = PBXGroup;
 			children = (
-				28CCC46426626EFA0021C3A0 /* chapter3 */,
 				28C35AAA2621C0430011E9B2 /* chapter1 */,
 				28C35AC92621C43E0011E9B2 /* chapter2 */,
+				28CCC46426626EFA0021C3A0 /* chapter3 */,
 				28C35AA22621C02D0011E9B2 /* main.cpp */,
 				28C35ABF2621C1770011E9B2 /* utils.cpp */,
 				28C35AC12621C1770011E9B2 /* utils.hpp */,
@@ -164,6 +167,8 @@
 				28CCC46626626F1B0021C3A0 /* BST.hpp */,
 				28B6F79B269A8D7000859F6F /* hashTable.cpp */,
 				28B6F79C269A8D7000859F6F /* hashTable.hpp */,
+				288CFE64269C679C000E9634 /* hashTableV2.cpp */,
+				288CFE65269C679C000E9634 /* hashTableV2.hpp */,
 			);
 			path = chapter3;
 			sourceTree = "<group>";
@@ -234,6 +239,7 @@
 				28C35ABC2621C1620011E9B2 /* Stack.cpp in Sources */,
 				28C35AB82621C1620011E9B2 /* UnionFind.cpp in Sources */,
 				28B6F79D269A8D7000859F6F /* hashTable.cpp in Sources */,
+				288CFE66269C679C000E9634 /* hashTableV2.cpp in Sources */,
 				28A4934D262BC67200FE182A /* quick_sort.cpp in Sources */,
 				289D44ED26230C6D003461FA /* shell_sort.cpp in Sources */,
 				28BF3893263FA2DD00F9C938 /* min_pq.cpp in Sources */,

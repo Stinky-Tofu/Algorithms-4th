@@ -18,6 +18,8 @@ class hashTable {
 public:
     hashTable(const int& mInit);
     ~hashTable();
+    hashTable(const hashTable& r) = delete;
+    hashTable& operator=(const hashTable& r) = delete;
     void insert(keyType key, valType val);
     std::pair<keyType, valType>* get(keyType key);
     void del(keyType key);

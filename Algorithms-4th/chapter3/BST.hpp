@@ -16,8 +16,13 @@ template <typename keyType, typename valType>
 class treeNode {
 public:
     treeNode() = default;
+    treeNode(keyType _key, valType _val)
+    : key(_key), val(_val), left(nullptr), right(nullptr), N(1){}
     treeNode(keyType _key, valType _val, treeNode* _left, treeNode* _right, int _N)
     : key(_key), val(_val), left(_left), right(_right), N(_N){}
+    ~treeNode() = default;
+    treeNode(const treeNode& r) = default;
+    treeNode& operator=(const treeNode& r) = default;
     
     keyType key;
     valType val;
@@ -30,6 +35,9 @@ public:
 template <typename keyType, typename valType>
 class BST {
 public:
+    BST() = default;
+    BST(const BST& r);
+    BST& operator=(const BST& r);
     ~BST();
     void insert(keyType key, valType val);
     treeNode<keyType, valType>* get(keyType key);
@@ -50,6 +58,7 @@ public:
     void print_node(treeNode<keyType, valType>* x);
     
 private:
+    treeNode<keyType, valType>* copyTree(const treeNode<keyType, valType>* x);
     treeNode<keyType, valType>* root = nullptr;
     treeNode<keyType, valType>* insert(treeNode<keyType, valType>* x, keyType key, valType val);
     treeNode<keyType, valType>* get(treeNode<keyType, valType>* x, keyType key);

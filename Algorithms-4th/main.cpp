@@ -25,8 +25,9 @@
 #include "chapter2/heap_sort.hpp"
 #include "chapter3/BST.hpp"
 #include "chapter3/hashTable.hpp"
+#include "chapter3/hashTableV2.hpp"
 
 int main(int argc, const char * argv[]) {
-    hashTableTest();
+    hashTableV2Test();
     return 0;
 }

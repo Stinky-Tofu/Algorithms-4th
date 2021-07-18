@@ -10,8 +10,30 @@
 #include <iostream>
 
 template <typename keyType, typename valType>
-BST<keyType, valType>::~BST<keyType, valType>() {
+BST<keyType, valType>::~BST() {
     clear(root);
+}
+
+template <typename keyType, typename valType>
+BST<keyType, valType>::BST(const BST& r) {
+    root = copyTree(r.root);
+}
+
+template <typename keyType, typename valType>
+BST<keyType, valType>& BST<keyType, valType>::operator=(const BST& r) {
+    clear(root);
+    root = copyTree(r.root);
+    return *this;
+}
+
+template <typename keyType, typename valType>
+treeNode<keyType, valType>* BST<keyType, valType>::copyTree(const treeNode<keyType, valType>* x) {
+    if (!x) return nullptr;
+    treeNode<keyType, valType>* xCopy = new treeNode<keyType, valType>(x->key, x->val);
+    xCopy->left = copyTree(x->left);
+    xCopy->right = copyTree(x->right);
+    xCopy->N = size(xCopy->left) + size(xCopy->right) + 1;
+    return xCopy;
 }
 
 template <typename keyType, typename valType>
@@ -22,6 +44,7 @@ void BST<keyType,  valType>::clear(treeNode<keyType, valType>* x) {
     clear(x->left);
     clear(x->right);
     delete x;
+    x = nullptr;
 }
 
 template <typename keyType, typename valType>
@@ -298,6 +321,15 @@ void BSTest() {
     bst.insert(0, 4);
     bst.insert(10, 4);
     bst.mid_order_print();
+    
+    std::cout << "*******copy construct*******" << std::endl;
+    BST<int, int> copyBst(bst);
+    copyBst.mid_order_print();
+    
+    std::cout << "*******assign*******" << std::endl;
+    BST<int, int> assignBst;
+    assignBst = bst;
+    assignBst.mid_order_print();
 
     std::cout << "*******get min node and max node*******" << std::endl;
     bst.print_node(bst.min());

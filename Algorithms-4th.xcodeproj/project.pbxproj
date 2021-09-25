@@ -25,6 +25,8 @@
 		28C35AC32621C1770011E9B2 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28C35ABF2621C1770011E9B2 /* utils.cpp */; };
 		28C35AD22621C76E0011E9B2 /* select_sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28C35AD02621C76E0011E9B2 /* select_sort.cpp */; };
 		28CCC46726626F1B0021C3A0 /* BST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28CCC46526626F1B0021C3A0 /* BST.cpp */; };
+		7512B63B26F7570E00A40CAC /* Graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7512B63926F7570E00A40CAC /* Graph.cpp */; };
+		756058C726DB2A9400808C8B /* RedBlackTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 756058C526DB2A9400808C8B /* RedBlackTree.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -77,6 +79,10 @@
 		28C35AD12621C76E0011E9B2 /* select_sort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = select_sort.hpp; sourceTree = "<group>"; };
 		28CCC46526626F1B0021C3A0 /* BST.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BST.cpp; sourceTree = "<group>"; };
 		28CCC46626626F1B0021C3A0 /* BST.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BST.hpp; sourceTree = "<group>"; };
+		7512B63926F7570E00A40CAC /* Graph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Graph.cpp; sourceTree = "<group>"; };
+		7512B63A26F7570E00A40CAC /* Graph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Graph.hpp; sourceTree = "<group>"; };
+		756058C526DB2A9400808C8B /* RedBlackTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RedBlackTree.cpp; sourceTree = "<group>"; };
+		756058C626DB2A9400808C8B /* RedBlackTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RedBlackTree.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,7 @@
 		28C35AA12621C02D0011E9B2 /* Algorithms-4th */ = {
 			isa = PBXGroup;
 			children = (
+				7512B63826F756AE00A40CAC /* chapter4 */,
 				28C35AAA2621C0430011E9B2 /* chapter1 */,
 				28C35AC92621C43E0011E9B2 /* chapter2 */,
 				28CCC46426626EFA0021C3A0 /* chapter3 */,
@@ -169,8 +176,19 @@
 				28B6F79C269A8D7000859F6F /* hashTable.hpp */,
 				288CFE64269C679C000E9634 /* hashTableV2.cpp */,
 				288CFE65269C679C000E9634 /* hashTableV2.hpp */,
+				756058C526DB2A9400808C8B /* RedBlackTree.cpp */,
+				756058C626DB2A9400808C8B /* RedBlackTree.hpp */,
 			);
 			path = chapter3;
+			sourceTree = "<group>";
+		};
+		7512B63826F756AE00A40CAC /* chapter4 */ = {
+			isa = PBXGroup;
+			children = (
+				7512B63926F7570E00A40CAC /* Graph.cpp */,
+				7512B63A26F7570E00A40CAC /* Graph.hpp */,
+			);
+			path = chapter4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +251,10 @@
 				28CCC46726626F1B0021C3A0 /* BST.cpp in Sources */,
 				28C35ABD2621C1620011E9B2 /* Node.cpp in Sources */,
 				28C35ABA2621C1620011E9B2 /* Dijkstra.cpp in Sources */,
+				7512B63B26F7570E00A40CAC /* Graph.cpp in Sources */,
 				28BF388F263F977E00F9C938 /* heap_sort.cpp in Sources */,
 				28C35AD22621C76E0011E9B2 /* select_sort.cpp in Sources */,
+				756058C726DB2A9400808C8B /* RedBlackTree.cpp in Sources */,
 				28C35AC32621C1770011E9B2 /* utils.cpp in Sources */,
 				28C35ABC2621C1620011E9B2 /* Stack.cpp in Sources */,
 				28C35AB82621C1620011E9B2 /* UnionFind.cpp in Sources */,

@@ -198,3 +198,62 @@ std::string SymbolGraph::name(const int& v) {
 Graph SymbolGraph::G() {
     return graph;
 }
+
+
+Cycle::Cycle(const Graph& g) {
+    masked = std::vector<bool>(g.get_V(), false);
+    has_cycle = false;
+    for (int v = 0; v < g.get_V(); ++v) {
+        if (!masked[v]) {
+            DFS(g, v, v);
+        }
+    }
+}
+
+void Cycle::DFS(const Graph& g, const int& v, const int& u) {
+    if (v >= g.get_V())
+        return;
+    masked[v] = true;
+    for (const int& adj: g.get_adj(v)) {
+        if (!masked[adj]) {
+            DFS(g, adj, v);
+        } else if (adj != u) {
+            has_cycle = true;
+            return;
+        }
+    }
+
+}
+
+bool Cycle::is_has_cycle() {
+    return has_cycle;
+}
+
+
+TwoColor::TwoColor(Graph g) {
+    masked = std::vector<bool>(g.get_V(), false);
+    color = std::vector<bool>(g.get_V(), false);
+    for (int i = 0; i < g.get_V(); ++i) {
+        if (!masked[i]) {
+            DFS(g, i);
+        }
+    }
+}
+
+void TwoColor::DFS(const Graph& g, const int& v) {
+    if (v >= g.get_V())
+        return;
+    masked[v] = true;
+    for (const int& adj: g.get_adj(v)) {
+        if (!masked[adj]) {
+            DFS(g, adj);
+            color[adj] = !color[v];
+        } else if (color[adj] == color[v]) {
+            is_bipartite = false;
+        }
+    }
+}
+
+bool TwoColor::is_two_colorable() {
+    return is_bipartite;
+}

@@ -85,4 +85,25 @@ private:
     std::vector<std::string> keys;
 };
 
+class Cycle {
+public:
+    Cycle(const Graph& g);
+    bool is_has_cycle();
+private:
+    void DFS(const Graph& g, const int& v, const int& u);
+    std::vector<bool> masked = {};
+    bool has_cycle = false;
+};
+
+class TwoColor {
+public:
+    TwoColor(Graph g);
+    bool is_two_colorable();
+private:
+    void DFS(const Graph& g, const int& v);
+    std::vector<bool> masked = {};
+    std::vector<bool> color = {};
+    bool is_bipartite = true;
+};
+
 #endif /* Graph_hpp */

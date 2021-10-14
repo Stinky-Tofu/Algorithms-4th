@@ -26,8 +26,11 @@
 #include "chapter3/BST.hpp"
 #include "chapter3/hashTable.hpp"
 #include "chapter3/hashTableV2.hpp"
+#include "chapter4/Search.hpp"
+#include "chapter4/CC.hpp"
+#include "chapter4/SymbolGraph.hpp"
 
 int main(int argc, const char * argv[]) {
-    hashTableV2Test();
+    symbol_graph_test();
     return 0;
 }

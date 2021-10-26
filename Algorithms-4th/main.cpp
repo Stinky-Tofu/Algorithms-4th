@@ -29,8 +29,9 @@
 #include "chapter4/Search.hpp"
 #include "chapter4/CC.hpp"
 #include "chapter4/SymbolGraph.hpp"
+#include "chapter4/DiSearch.hpp"
 
 int main(int argc, const char * argv[]) {
-    symbol_graph_test();
+    di_search_test();
     return 0;
 }

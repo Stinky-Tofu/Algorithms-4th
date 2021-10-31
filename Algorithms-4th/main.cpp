@@ -30,8 +30,9 @@
 #include "chapter4/CC.hpp"
 #include "chapter4/SymbolGraph.hpp"
 #include "chapter4/DiSearch.hpp"
+#include "chapter4/TopoLogical.hpp"
 
 int main(int argc, const char * argv[]) {
-    di_search_test();
+    topo_logical_test();
     return 0;
 }

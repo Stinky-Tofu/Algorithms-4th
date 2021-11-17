@@ -37,6 +37,8 @@
 		7575423427186E35004A1425 /* Cycle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7575423227186E35004A1425 /* Cycle.cpp */; };
 		7575423727187035004A1425 /* TwoColor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7575423527187035004A1425 /* TwoColor.cpp */; };
 		7575423A271870DC004A1425 /* SymbolGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75754238271870DC004A1425 /* SymbolGraph.cpp */; };
+		7591820C2742A0A2008C2887 /* LazyPrimMST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7591820A2742A0A2008C2887 /* LazyPrimMST.cpp */; };
+		75BD1B07274158B10000EF8C /* EdgeWeightedGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75BD1B05274158B10000EF8C /* EdgeWeightedGraph.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -113,6 +115,10 @@
 		7575423627187035004A1425 /* TwoColor.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TwoColor.hpp; sourceTree = "<group>"; };
 		75754238271870DC004A1425 /* SymbolGraph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SymbolGraph.cpp; sourceTree = "<group>"; };
 		75754239271870DC004A1425 /* SymbolGraph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SymbolGraph.hpp; sourceTree = "<group>"; };
+		7591820A2742A0A2008C2887 /* LazyPrimMST.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LazyPrimMST.cpp; sourceTree = "<group>"; };
+		7591820B2742A0A2008C2887 /* LazyPrimMST.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LazyPrimMST.hpp; sourceTree = "<group>"; };
+		75BD1B05274158B10000EF8C /* EdgeWeightedGraph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EdgeWeightedGraph.cpp; sourceTree = "<group>"; };
+		75BD1B06274158B10000EF8C /* EdgeWeightedGraph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EdgeWeightedGraph.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,6 +243,10 @@
 				755F053D272E637200F02F5E /* TopoLogical.hpp */,
 				755F053F272ED68600F02F5E /* DepthFirstOrder.cpp */,
 				755F0540272ED68600F02F5E /* DepthFirstOrder.hpp */,
+				75BD1B05274158B10000EF8C /* EdgeWeightedGraph.cpp */,
+				75BD1B06274158B10000EF8C /* EdgeWeightedGraph.hpp */,
+				7591820A2742A0A2008C2887 /* LazyPrimMST.cpp */,
+				7591820B2742A0A2008C2887 /* LazyPrimMST.hpp */,
 			);
 			path = chapter4;
 			sourceTree = "<group>";
@@ -301,6 +311,7 @@
 				28CCC46726626F1B0021C3A0 /* BST.cpp in Sources */,
 				28C35ABD2621C1620011E9B2 /* Node.cpp in Sources */,
 				755F053E272E637200F02F5E /* TopoLogical.cpp in Sources */,
+				75BD1B07274158B10000EF8C /* EdgeWeightedGraph.cpp in Sources */,
 				7575423A271870DC004A1425 /* SymbolGraph.cpp in Sources */,
 				28C35ABA2621C1620011E9B2 /* Dijkstra.cpp in Sources */,
 				754CD11E2712E84E00915F88 /* Search.cpp in Sources */,
@@ -308,6 +319,7 @@
 				7575423727187035004A1425 /* TwoColor.cpp in Sources */,
 				7564E2F52726FAB2000078C1 /* DiSearch.cpp in Sources */,
 				28BF388F263F977E00F9C938 /* heap_sort.cpp in Sources */,
+				7591820C2742A0A2008C2887 /* LazyPrimMST.cpp in Sources */,
 				7575423427186E35004A1425 /* Cycle.cpp in Sources */,
 				28C35AD22621C76E0011E9B2 /* select_sort.cpp in Sources */,
 				756058C726DB2A9400808C8B /* RedBlackTree.cpp in Sources */,

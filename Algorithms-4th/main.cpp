@@ -31,8 +31,10 @@
 #include "chapter4/SymbolGraph.hpp"
 #include "chapter4/DiSearch.hpp"
 #include "chapter4/TopoLogical.hpp"
+#include "chapter4/EdgeWeightedGraph.hpp"
+#include "chapter4/LazyPrimMST.hpp"
 
 int main(int argc, const char * argv[]) {
-    topo_logical_test();
+    LazyPrimMST_test();
     return 0;
 }

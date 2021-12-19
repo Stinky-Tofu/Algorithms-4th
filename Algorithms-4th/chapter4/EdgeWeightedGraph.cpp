@@ -29,10 +29,15 @@ std::vector<Edge> EdgeWeightedGraph::get_adj(int v) const {
     return adj[v];
 }
 
+std::vector<Edge> EdgeWeightedGraph::get_edges() const {
+    return edges;
+}
+
 void EdgeWeightedGraph::add_edge(const Edge& e) {
     int v = e.either();
     int w = e.other(v);
     adj[v].push_back(e);
     adj[w].push_back(e);
     ++E;
+    edges.push_back(e);
 }

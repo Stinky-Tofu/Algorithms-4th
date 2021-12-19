@@ -33,8 +33,9 @@
 #include "chapter4/TopoLogical.hpp"
 #include "chapter4/EdgeWeightedGraph.hpp"
 #include "chapter4/LazyPrimMST.hpp"
+#include "chapter4/PrimMST.hpp"
 
 int main(int argc, const char * argv[]) {
-    LazyPrimMST_test();
+    PrimMST_test();
     return 0;
 }

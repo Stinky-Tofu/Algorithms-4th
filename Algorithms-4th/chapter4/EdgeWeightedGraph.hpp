@@ -50,11 +50,13 @@ public:
     int get_V() const;
     int get_E() const;
     std::vector<Edge> get_adj(int v) const;
+    std::vector<Edge> get_edges() const;
     void add_edge(const Edge& e);
 private:
     int V;
     int E;
     std::vector<std::vector<Edge>> adj;
+    std::vector<Edge> edges;
 };
 
 #endif /* EdgeWeightedGraph_hpp */

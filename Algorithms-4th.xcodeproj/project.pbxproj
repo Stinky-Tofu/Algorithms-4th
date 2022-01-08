@@ -26,6 +26,7 @@
 		28C35AD22621C76E0011E9B2 /* select_sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28C35AD02621C76E0011E9B2 /* select_sort.cpp */; };
 		28CCC46726626F1B0021C3A0 /* BST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28CCC46526626F1B0021C3A0 /* BST.cpp */; };
 		7512B63B26F7570E00A40CAC /* Graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7512B63926F7570E00A40CAC /* Graph.cpp */; };
+		751DC5D427892ED00067746D /* IndexMinPQ.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 751DC5D227892ED00067746D /* IndexMinPQ.cpp */; };
 		7529BF1F27171D35008C31AC /* CC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7529BF1D27171D35008C31AC /* CC.cpp */; };
 		754CD11E2712E84E00915F88 /* Search.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 754CD11C2712E84E00915F88 /* Search.cpp */; };
 		755F053B272E5C0600F02F5E /* DiCycle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 755F0539272E5C0600F02F5E /* DiCycle.cpp */; };
@@ -95,6 +96,8 @@
 		28CCC46626626F1B0021C3A0 /* BST.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BST.hpp; sourceTree = "<group>"; };
 		7512B63926F7570E00A40CAC /* Graph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Graph.cpp; sourceTree = "<group>"; };
 		7512B63A26F7570E00A40CAC /* Graph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Graph.hpp; sourceTree = "<group>"; };
+		751DC5D227892ED00067746D /* IndexMinPQ.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IndexMinPQ.cpp; sourceTree = "<group>"; };
+		751DC5D327892ED00067746D /* IndexMinPQ.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IndexMinPQ.hpp; sourceTree = "<group>"; };
 		7529BF1D27171D35008C31AC /* CC.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CC.cpp; sourceTree = "<group>"; };
 		7529BF1E27171D35008C31AC /* CC.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CC.hpp; sourceTree = "<group>"; };
 		754CD11C2712E84E00915F88 /* Search.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Search.cpp; sourceTree = "<group>"; };
@@ -205,6 +208,8 @@
 				28BF388E263F977E00F9C938 /* heap_sort.hpp */,
 				28BF3891263FA2DD00F9C938 /* min_pq.cpp */,
 				28BF3892263FA2DD00F9C938 /* min_pq.hpp */,
+				751DC5D227892ED00067746D /* IndexMinPQ.cpp */,
+				751DC5D327892ED00067746D /* IndexMinPQ.hpp */,
 			);
 			path = chapter2;
 			sourceTree = "<group>";
@@ -325,6 +330,7 @@
 				755F053E272E637200F02F5E /* TopoLogical.cpp in Sources */,
 				75BD1B07274158B10000EF8C /* EdgeWeightedGraph.cpp in Sources */,
 				7575423A271870DC004A1425 /* SymbolGraph.cpp in Sources */,
+				751DC5D427892ED00067746D /* IndexMinPQ.cpp in Sources */,
 				28C35ABA2621C1620011E9B2 /* Dijkstra.cpp in Sources */,
 				754CD11E2712E84E00915F88 /* Search.cpp in Sources */,
 				7512B63B26F7570E00A40CAC /* Graph.cpp in Sources */,

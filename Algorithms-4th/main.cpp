@@ -23,7 +23,7 @@
 #include "chapter2/quick_sort.hpp"
 #include "chapter2/min_pq.hpp"
 #include "chapter2/heap_sort.hpp"
-#include "chapter2/IndexMinPQ.hpp"
+#include "chapter2/MinIndexedPQ.hpp"
 #include "chapter3/BST.hpp"
 #include "chapter3/hashTable.hpp"
 #include "chapter3/hashTableV2.hpp"
@@ -34,9 +34,10 @@
 #include "chapter4/TopoLogical.hpp"
 #include "chapter4/EdgeWeightedGraph.hpp"
 #include "chapter4/LazyPrimMST.hpp"
+#include "chapter4/PrimMST.hpp"
 #include "chapter4/Kruskal.hpp"
 
 int main(int argc, const char * argv[]) {
-    test_IndexMinPQ();
+    PrimMST_test();
     return 0;
 }

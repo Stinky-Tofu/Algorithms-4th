@@ -26,7 +26,8 @@
 		28C35AD22621C76E0011E9B2 /* select_sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28C35AD02621C76E0011E9B2 /* select_sort.cpp */; };
 		28CCC46726626F1B0021C3A0 /* BST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28CCC46526626F1B0021C3A0 /* BST.cpp */; };
 		7512B63B26F7570E00A40CAC /* Graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7512B63926F7570E00A40CAC /* Graph.cpp */; };
-		751DC5D427892ED00067746D /* IndexMinPQ.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 751DC5D227892ED00067746D /* IndexMinPQ.cpp */; };
+		751DC5D72789331F0067746D /* PrimMST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 751DC5D52789331F0067746D /* PrimMST.cpp */; };
+		751DC5DA278998FB0067746D /* MinIndexedPQ.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 751DC5D8278998FB0067746D /* MinIndexedPQ.cpp */; };
 		7529BF1F27171D35008C31AC /* CC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7529BF1D27171D35008C31AC /* CC.cpp */; };
 		754CD11E2712E84E00915F88 /* Search.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 754CD11C2712E84E00915F88 /* Search.cpp */; };
 		755F053B272E5C0600F02F5E /* DiCycle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 755F0539272E5C0600F02F5E /* DiCycle.cpp */; };
@@ -35,7 +36,6 @@
 		756058C726DB2A9400808C8B /* RedBlackTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 756058C526DB2A9400808C8B /* RedBlackTree.cpp */; };
 		7564E2EC2726F6D9000078C1 /* DiGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7564E2EA2726F6D9000078C1 /* DiGraph.cpp */; };
 		7564E2F52726FAB2000078C1 /* DiSearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7564E2F32726FAB2000078C1 /* DiSearch.cpp */; };
-		7567EFEF277EE4C3007D8E42 /* PrimMST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7567EFED277EE4C3007D8E42 /* PrimMST.cpp */; };
 		7575423427186E35004A1425 /* Cycle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7575423227186E35004A1425 /* Cycle.cpp */; };
 		7575423727187035004A1425 /* TwoColor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7575423527187035004A1425 /* TwoColor.cpp */; };
 		7575423A271870DC004A1425 /* SymbolGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75754238271870DC004A1425 /* SymbolGraph.cpp */; };
@@ -96,8 +96,10 @@
 		28CCC46626626F1B0021C3A0 /* BST.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BST.hpp; sourceTree = "<group>"; };
 		7512B63926F7570E00A40CAC /* Graph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Graph.cpp; sourceTree = "<group>"; };
 		7512B63A26F7570E00A40CAC /* Graph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Graph.hpp; sourceTree = "<group>"; };
-		751DC5D227892ED00067746D /* IndexMinPQ.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IndexMinPQ.cpp; sourceTree = "<group>"; };
-		751DC5D327892ED00067746D /* IndexMinPQ.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IndexMinPQ.hpp; sourceTree = "<group>"; };
+		751DC5D52789331F0067746D /* PrimMST.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PrimMST.cpp; sourceTree = "<group>"; };
+		751DC5D62789331F0067746D /* PrimMST.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PrimMST.hpp; sourceTree = "<group>"; };
+		751DC5D8278998FB0067746D /* MinIndexedPQ.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinIndexedPQ.cpp; sourceTree = "<group>"; };
+		751DC5D9278998FB0067746D /* MinIndexedPQ.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MinIndexedPQ.hpp; sourceTree = "<group>"; };
 		7529BF1D27171D35008C31AC /* CC.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CC.cpp; sourceTree = "<group>"; };
 		7529BF1E27171D35008C31AC /* CC.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CC.hpp; sourceTree = "<group>"; };
 		754CD11C2712E84E00915F88 /* Search.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Search.cpp; sourceTree = "<group>"; };
@@ -114,8 +116,6 @@
 		7564E2EB2726F6D9000078C1 /* DiGraph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DiGraph.hpp; sourceTree = "<group>"; };
 		7564E2F32726FAB2000078C1 /* DiSearch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DiSearch.cpp; sourceTree = "<group>"; };
 		7564E2F42726FAB2000078C1 /* DiSearch.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DiSearch.hpp; sourceTree = "<group>"; };
-		7567EFED277EE4C3007D8E42 /* PrimMST.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PrimMST.cpp; sourceTree = "<group>"; };
-		7567EFEE277EE4C3007D8E42 /* PrimMST.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PrimMST.hpp; sourceTree = "<group>"; };
 		7575423227186E35004A1425 /* Cycle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Cycle.cpp; sourceTree = "<group>"; };
 		7575423327186E35004A1425 /* Cycle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Cycle.hpp; sourceTree = "<group>"; };
 		7575423527187035004A1425 /* TwoColor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TwoColor.cpp; sourceTree = "<group>"; };
@@ -208,8 +208,8 @@
 				28BF388E263F977E00F9C938 /* heap_sort.hpp */,
 				28BF3891263FA2DD00F9C938 /* min_pq.cpp */,
 				28BF3892263FA2DD00F9C938 /* min_pq.hpp */,
-				751DC5D227892ED00067746D /* IndexMinPQ.cpp */,
-				751DC5D327892ED00067746D /* IndexMinPQ.hpp */,
+				751DC5D8278998FB0067746D /* MinIndexedPQ.cpp */,
+				751DC5D9278998FB0067746D /* MinIndexedPQ.hpp */,
 			);
 			path = chapter2;
 			sourceTree = "<group>";
@@ -260,8 +260,8 @@
 				7591820B2742A0A2008C2887 /* LazyPrimMST.hpp */,
 				7599D227275A22FA00DB2051 /* Kruskal.cpp */,
 				7599D228275A22FA00DB2051 /* Kruskal.hpp */,
-				7567EFED277EE4C3007D8E42 /* PrimMST.cpp */,
-				7567EFEE277EE4C3007D8E42 /* PrimMST.hpp */,
+				751DC5D52789331F0067746D /* PrimMST.cpp */,
+				751DC5D62789331F0067746D /* PrimMST.hpp */,
 			);
 			path = chapter4;
 			sourceTree = "<group>";
@@ -324,13 +324,13 @@
 			files = (
 				28C35AB92621C1620011E9B2 /* Queue.cpp in Sources */,
 				28CCC46726626F1B0021C3A0 /* BST.cpp in Sources */,
+				751DC5DA278998FB0067746D /* MinIndexedPQ.cpp in Sources */,
 				7599D229275A22FA00DB2051 /* Kruskal.cpp in Sources */,
 				28C35ABD2621C1620011E9B2 /* Node.cpp in Sources */,
-				7567EFEF277EE4C3007D8E42 /* PrimMST.cpp in Sources */,
 				755F053E272E637200F02F5E /* TopoLogical.cpp in Sources */,
 				75BD1B07274158B10000EF8C /* EdgeWeightedGraph.cpp in Sources */,
 				7575423A271870DC004A1425 /* SymbolGraph.cpp in Sources */,
-				751DC5D427892ED00067746D /* IndexMinPQ.cpp in Sources */,
+				751DC5D72789331F0067746D /* PrimMST.cpp in Sources */,
 				28C35ABA2621C1620011E9B2 /* Dijkstra.cpp in Sources */,
 				754CD11E2712E84E00915F88 /* Search.cpp in Sources */,
 				7512B63B26F7570E00A40CAC /* Graph.cpp in Sources */,

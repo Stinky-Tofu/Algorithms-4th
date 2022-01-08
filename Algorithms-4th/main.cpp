@@ -33,9 +33,9 @@
 #include "chapter4/TopoLogical.hpp"
 #include "chapter4/EdgeWeightedGraph.hpp"
 #include "chapter4/LazyPrimMST.hpp"
-#include "chapter4/PrimMST.hpp"
+#include "chapter4/Kruskal.hpp"
 
 int main(int argc, const char * argv[]) {
-    PrimMST_test();
+    Kruskal_test();
     return 0;
 }

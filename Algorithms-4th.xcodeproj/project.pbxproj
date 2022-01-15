@@ -28,6 +28,7 @@
 		7512B63B26F7570E00A40CAC /* Graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7512B63926F7570E00A40CAC /* Graph.cpp */; };
 		751DC5D72789331F0067746D /* PrimMST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 751DC5D52789331F0067746D /* PrimMST.cpp */; };
 		751DC5DA278998FB0067746D /* MinIndexedPQ.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 751DC5D8278998FB0067746D /* MinIndexedPQ.cpp */; };
+		752642F82792745000F30D7E /* LSD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 752642F62792745000F30D7E /* LSD.cpp */; };
 		7529BF1F27171D35008C31AC /* CC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7529BF1D27171D35008C31AC /* CC.cpp */; };
 		754CD11E2712E84E00915F88 /* Search.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 754CD11C2712E84E00915F88 /* Search.cpp */; };
 		755F053B272E5C0600F02F5E /* DiCycle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 755F0539272E5C0600F02F5E /* DiCycle.cpp */; };
@@ -100,6 +101,8 @@
 		751DC5D62789331F0067746D /* PrimMST.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PrimMST.hpp; sourceTree = "<group>"; };
 		751DC5D8278998FB0067746D /* MinIndexedPQ.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinIndexedPQ.cpp; sourceTree = "<group>"; };
 		751DC5D9278998FB0067746D /* MinIndexedPQ.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MinIndexedPQ.hpp; sourceTree = "<group>"; };
+		752642F62792745000F30D7E /* LSD.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LSD.cpp; sourceTree = "<group>"; };
+		752642F72792745000F30D7E /* LSD.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LSD.hpp; sourceTree = "<group>"; };
 		7529BF1D27171D35008C31AC /* CC.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CC.cpp; sourceTree = "<group>"; };
 		7529BF1E27171D35008C31AC /* CC.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CC.hpp; sourceTree = "<group>"; };
 		754CD11C2712E84E00915F88 /* Search.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Search.cpp; sourceTree = "<group>"; };
@@ -160,6 +163,7 @@
 		28C35AA12621C02D0011E9B2 /* Algorithms-4th */ = {
 			isa = PBXGroup;
 			children = (
+				752642F52792743700F30D7E /* chapter5 */,
 				7512B63826F756AE00A40CAC /* chapter4 */,
 				28C35AAA2621C0430011E9B2 /* chapter1 */,
 				28C35AC92621C43E0011E9B2 /* chapter2 */,
@@ -266,6 +270,15 @@
 			path = chapter4;
 			sourceTree = "<group>";
 		};
+		752642F52792743700F30D7E /* chapter5 */ = {
+			isa = PBXGroup;
+			children = (
+				752642F62792745000F30D7E /* LSD.cpp */,
+				752642F72792745000F30D7E /* LSD.hpp */,
+			);
+			path = chapter5;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -349,6 +362,7 @@
 				755F0541272ED68600F02F5E /* DepthFirstOrder.cpp in Sources */,
 				288CFE66269C679C000E9634 /* hashTableV2.cpp in Sources */,
 				28A4934D262BC67200FE182A /* quick_sort.cpp in Sources */,
+				752642F82792745000F30D7E /* LSD.cpp in Sources */,
 				289D44ED26230C6D003461FA /* shell_sort.cpp in Sources */,
 				755F053B272E5C0600F02F5E /* DiCycle.cpp in Sources */,
 				28BF3893263FA2DD00F9C938 /* min_pq.cpp in Sources */,

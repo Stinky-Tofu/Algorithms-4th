@@ -36,8 +36,9 @@
 #include "chapter4/LazyPrimMST.hpp"
 #include "chapter4/PrimMST.hpp"
 #include "chapter4/Kruskal.hpp"
+#include "chapter5/LSD.hpp"
 
 int main(int argc, const char * argv[]) {
-    PrimMST_test();
+    LSD_test();
     return 0;
 }

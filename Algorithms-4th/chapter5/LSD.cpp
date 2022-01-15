@@ -28,7 +28,8 @@ void lsd_sort(std::vector<std::string> &arr) {
         for (const std::string &str: arr) {
             count[int(str[d])+1] += 1;
         }
-        //  将频率转换成起始索引，转换后count[i]变成第i个字符的起始索引
+        //  将频率转换成起始索引，转换后count[i]变成字符i的起始索引，count[i]=字符i-1的终止索引+1
+        //  count[256]=字符255的终止索引+1，因为最大字符为255，所以count[256]是无用的
         for (int i = 0; i < R; ++i) {
             count[i+1] += count[i];
         }

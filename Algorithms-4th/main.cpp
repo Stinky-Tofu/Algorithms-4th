@@ -37,8 +37,9 @@
 #include "chapter4/PrimMST.hpp"
 #include "chapter4/Kruskal.hpp"
 #include "chapter5/LSD.hpp"
+#include "chapter5/MSD.hpp"
 
 int main(int argc, const char * argv[]) {
-    LSD_test();
+    MSD_test();
     return 0;
 }

@@ -42,6 +42,7 @@
 		7575423A271870DC004A1425 /* SymbolGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75754238271870DC004A1425 /* SymbolGraph.cpp */; };
 		7591820C2742A0A2008C2887 /* LazyPrimMST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7591820A2742A0A2008C2887 /* LazyPrimMST.cpp */; };
 		7599D229275A22FA00DB2051 /* Kruskal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7599D227275A22FA00DB2051 /* Kruskal.cpp */; };
+		75A7A7DD279D6E5B00A660F9 /* MSD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75A7A7DB279D6E5B00A660F9 /* MSD.cpp */; };
 		75BD1B07274158B10000EF8C /* EdgeWeightedGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75BD1B05274158B10000EF8C /* EdgeWeightedGraph.cpp */; };
 /* End PBXBuildFile section */
 
@@ -129,6 +130,8 @@
 		7591820B2742A0A2008C2887 /* LazyPrimMST.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LazyPrimMST.hpp; sourceTree = "<group>"; };
 		7599D227275A22FA00DB2051 /* Kruskal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Kruskal.cpp; sourceTree = "<group>"; };
 		7599D228275A22FA00DB2051 /* Kruskal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Kruskal.hpp; sourceTree = "<group>"; };
+		75A7A7DB279D6E5B00A660F9 /* MSD.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MSD.cpp; sourceTree = "<group>"; };
+		75A7A7DC279D6E5B00A660F9 /* MSD.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MSD.hpp; sourceTree = "<group>"; };
 		75BD1B05274158B10000EF8C /* EdgeWeightedGraph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EdgeWeightedGraph.cpp; sourceTree = "<group>"; };
 		75BD1B06274158B10000EF8C /* EdgeWeightedGraph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EdgeWeightedGraph.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -275,6 +278,8 @@
 			children = (
 				752642F62792745000F30D7E /* LSD.cpp */,
 				752642F72792745000F30D7E /* LSD.hpp */,
+				75A7A7DB279D6E5B00A660F9 /* MSD.cpp */,
+				75A7A7DC279D6E5B00A660F9 /* MSD.hpp */,
 			);
 			path = chapter5;
 			sourceTree = "<group>";
@@ -355,6 +360,7 @@
 				28C35AD22621C76E0011E9B2 /* select_sort.cpp in Sources */,
 				756058C726DB2A9400808C8B /* RedBlackTree.cpp in Sources */,
 				7529BF1F27171D35008C31AC /* CC.cpp in Sources */,
+				75A7A7DD279D6E5B00A660F9 /* MSD.cpp in Sources */,
 				28C35AC32621C1770011E9B2 /* utils.cpp in Sources */,
 				28C35ABC2621C1620011E9B2 /* Stack.cpp in Sources */,
 				28C35AB82621C1620011E9B2 /* UnionFind.cpp in Sources */,

@@ -11,7 +11,21 @@
 #include <string>
 #include <iostream>
 
-int R = 256;
+static const int R = 256;
+static const int M = 3;
+
+void insert_sort(std::vector<std::string> &arr,
+                 const int &low,
+                 const int &high,
+                 const int &d) {
+    if (low >= high)
+        return;
+    for (int i = low + 1; i <= high; ++i) {
+        for (int j = i; j > low && arr[j] < arr[j-1]; --j) {
+            std::swap(arr[j], arr[j-1]);
+        }
+    }
+}
 
 void MSD_sort(std::vector<std::string> &arr) {
     sort(arr, 0, (int)arr.size()-1, 0);
@@ -25,8 +39,10 @@ void sort(std::vector<std::string> &arr,
           const int &low,
           const int &high,
           const int &d) {
-    if (low >= high)
+    if (low + M >= high) {
+        insert_sort(arr, low, high, d);
         return;
+    }
     std::vector<int> count(R + 2);
     std::vector<std::string> aux(high - low + 1);
     for (int i = low; i <= high; ++i) {

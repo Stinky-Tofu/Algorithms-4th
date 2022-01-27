@@ -13,7 +13,7 @@
 #include <vector>
 #include <string>
 
-
+int char_at(const std::string &str, const int &d);
 void MSD_sort(std::vector<std::string> &arr);
 void sort(std::vector<std::string> &arr,
           const int &low,

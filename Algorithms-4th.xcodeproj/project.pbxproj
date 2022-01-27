@@ -44,6 +44,7 @@
 		7599D229275A22FA00DB2051 /* Kruskal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7599D227275A22FA00DB2051 /* Kruskal.cpp */; };
 		75A7A7DD279D6E5B00A660F9 /* MSD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75A7A7DB279D6E5B00A660F9 /* MSD.cpp */; };
 		75BD1B07274158B10000EF8C /* EdgeWeightedGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75BD1B05274158B10000EF8C /* EdgeWeightedGraph.cpp */; };
+		75D3B98827A2B4B700382515 /* quick_3_string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75D3B98627A2B4B700382515 /* quick_3_string.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -134,6 +135,8 @@
 		75A7A7DC279D6E5B00A660F9 /* MSD.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MSD.hpp; sourceTree = "<group>"; };
 		75BD1B05274158B10000EF8C /* EdgeWeightedGraph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EdgeWeightedGraph.cpp; sourceTree = "<group>"; };
 		75BD1B06274158B10000EF8C /* EdgeWeightedGraph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EdgeWeightedGraph.hpp; sourceTree = "<group>"; };
+		75D3B98627A2B4B700382515 /* quick_3_string.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quick_3_string.cpp; sourceTree = "<group>"; };
+		75D3B98727A2B4B700382515 /* quick_3_string.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = quick_3_string.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -280,6 +283,8 @@
 				752642F72792745000F30D7E /* LSD.hpp */,
 				75A7A7DB279D6E5B00A660F9 /* MSD.cpp */,
 				75A7A7DC279D6E5B00A660F9 /* MSD.hpp */,
+				75D3B98627A2B4B700382515 /* quick_3_string.cpp */,
+				75D3B98727A2B4B700382515 /* quick_3_string.hpp */,
 			);
 			path = chapter5;
 			sourceTree = "<group>";
@@ -352,6 +357,7 @@
 				28C35ABA2621C1620011E9B2 /* Dijkstra.cpp in Sources */,
 				754CD11E2712E84E00915F88 /* Search.cpp in Sources */,
 				7512B63B26F7570E00A40CAC /* Graph.cpp in Sources */,
+				75D3B98827A2B4B700382515 /* quick_3_string.cpp in Sources */,
 				7575423727187035004A1425 /* TwoColor.cpp in Sources */,
 				7564E2F52726FAB2000078C1 /* DiSearch.cpp in Sources */,
 				28BF388F263F977E00F9C938 /* heap_sort.cpp in Sources */,

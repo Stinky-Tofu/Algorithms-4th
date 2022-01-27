@@ -38,8 +38,9 @@
 #include "chapter4/Kruskal.hpp"
 #include "chapter5/LSD.hpp"
 #include "chapter5/MSD.hpp"
+#include "chapter5/quick_3_string.hpp"
 
 int main(int argc, const char * argv[]) {
-    MSD_test();
+    quick_3_string_test();
     return 0;
 }

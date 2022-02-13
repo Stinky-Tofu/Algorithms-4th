@@ -39,8 +39,9 @@
 #include "chapter5/LSD.hpp"
 #include "chapter5/MSD.hpp"
 #include "chapter5/quick_3_string.hpp"
+#include "chapter5/Search.hpp"
 
 int main(int argc, const char * argv[]) {
-    quick_3_string_test();
+    sub_str_search_test();
     return 0;
 }

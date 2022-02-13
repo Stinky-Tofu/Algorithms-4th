@@ -44,6 +44,7 @@
 		7599D229275A22FA00DB2051 /* Kruskal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7599D227275A22FA00DB2051 /* Kruskal.cpp */; };
 		75A7A7DD279D6E5B00A660F9 /* MSD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75A7A7DB279D6E5B00A660F9 /* MSD.cpp */; };
 		75BD1B07274158B10000EF8C /* EdgeWeightedGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75BD1B05274158B10000EF8C /* EdgeWeightedGraph.cpp */; };
+		75CADB8B27B918E2006D1C1A /* Search.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75CADB8927B918E2006D1C1A /* Search.cpp */; };
 		75D3B98827A2B4B700382515 /* quick_3_string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75D3B98627A2B4B700382515 /* quick_3_string.cpp */; };
 /* End PBXBuildFile section */
 
@@ -135,6 +136,8 @@
 		75A7A7DC279D6E5B00A660F9 /* MSD.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MSD.hpp; sourceTree = "<group>"; };
 		75BD1B05274158B10000EF8C /* EdgeWeightedGraph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EdgeWeightedGraph.cpp; sourceTree = "<group>"; };
 		75BD1B06274158B10000EF8C /* EdgeWeightedGraph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EdgeWeightedGraph.hpp; sourceTree = "<group>"; };
+		75CADB8927B918E2006D1C1A /* Search.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Search.cpp; sourceTree = "<group>"; };
+		75CADB8A27B918E2006D1C1A /* Search.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Search.hpp; sourceTree = "<group>"; };
 		75D3B98627A2B4B700382515 /* quick_3_string.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quick_3_string.cpp; sourceTree = "<group>"; };
 		75D3B98727A2B4B700382515 /* quick_3_string.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = quick_3_string.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -285,6 +288,8 @@
 				75A7A7DC279D6E5B00A660F9 /* MSD.hpp */,
 				75D3B98627A2B4B700382515 /* quick_3_string.cpp */,
 				75D3B98727A2B4B700382515 /* quick_3_string.hpp */,
+				75CADB8927B918E2006D1C1A /* Search.cpp */,
+				75CADB8A27B918E2006D1C1A /* Search.hpp */,
 			);
 			path = chapter5;
 			sourceTree = "<group>";
@@ -373,6 +378,7 @@
 				28B6F79D269A8D7000859F6F /* hashTable.cpp in Sources */,
 				755F0541272ED68600F02F5E /* DepthFirstOrder.cpp in Sources */,
 				288CFE66269C679C000E9634 /* hashTableV2.cpp in Sources */,
+				75CADB8B27B918E2006D1C1A /* Search.cpp in Sources */,
 				28A4934D262BC67200FE182A /* quick_sort.cpp in Sources */,
 				752642F82792745000F30D7E /* LSD.cpp in Sources */,
 				289D44ED26230C6D003461FA /* shell_sort.cpp in Sources */,
